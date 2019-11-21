@@ -4,3 +4,6 @@
 [submodule "pack/standard/start/vim-sexp"]
 	path = pack/standard/start/vim-sexp
 	url = https://github.com/guns/vim-sexp.git
+[submodule "pack/standard/start/vim-sexp-mappings-for-regular-people"]
+	path = pack/standard/start/vim-sexp-mappings-for-regular-people
+	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people.git
