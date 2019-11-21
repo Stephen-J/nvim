@@ -1,0 +1,3 @@
+[submodule "pack/colors/opt/nord-vim"]
+	path = pack/colors/opt/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
