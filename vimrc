@@ -15,3 +15,5 @@ execute "set rtp+=" . g:opamshare . "/merlin/vim"
 set background=dark
 packadd nord-vim
 colorscheme nord
+
+let g:netrw_liststyle=3

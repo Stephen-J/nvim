@@ -10,3 +10,6 @@
 	path = pack/standard/start/vim-sexp-mappings-for-regular-people
 	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people.git
 	ignore = untracked
+[submodule "pack/clojure/opt/conjure"]
+	path = pack/clojure/opt/conjure
+	url = https://github.com/Olical/conjure.git
