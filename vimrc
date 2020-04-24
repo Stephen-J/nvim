@@ -20,6 +20,21 @@ set termguicolors "This is needed for CocList to display highlighting
 set background=dark
 let g:netrw_liststyle=3
 
+if(exists("$TMUX"))
+  let g:clipboard = {
+    \   'name': 'myClipboard',
+    \   'copy': {
+    \      '+': 'tmux load-buffer -',
+    \      '*': 'tmux load-buffer -',
+    \    },
+    \   'paste': {
+    \      '+': 'tmux save-buffer -',
+    \      '*': 'tmux save-buffer -',
+    \   },
+    \   'cache_enabled': 1,
+    \ }
+endif
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
