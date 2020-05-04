@@ -48,12 +48,16 @@ function AddStandard()
   inoremap <silent><expr> <c-space> coc#refresh()
 endfunction
 
-function AddConjure()
+function AddClojure()
   let g:conjure_log_auto_close=v:false
   let g:conjure_log_direction="vertical"
+  let g:sexp_filetypes="clojure" 
   packadd conjure 
 endfunction
 
+function AddJulia()
+  packadd julia-vim
+endfunction
 
 
 
@@ -62,4 +66,5 @@ endfunction
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call AddStandard()
-call AddConjure()
+call AddClojure()
+call AddJulia()
