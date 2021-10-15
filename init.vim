@@ -19,6 +19,7 @@ set softtabstop=2
 set termguicolors "This is needed for CocList to display highlighting
 set background=dark
 let g:netrw_liststyle=3
+tnoremap <Esc> <C-\><C-n>
 
 if(exists("$TMUX"))
   let g:clipboard = {
