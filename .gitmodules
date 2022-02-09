@@ -25,3 +25,6 @@
 	url = https://github.com/JuliaEditorSupport/julia-vim.git
 [submodule "./pack/standard/opt/coc.nvim"]
 	branch = release
+[submodule "pack/standard/start/nvim-treesitter"]
+	path = pack/standard/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
