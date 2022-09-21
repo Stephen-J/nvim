@@ -12,6 +12,6 @@ vim.opt.softtabstop = 2
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
 vim.g["netrw_liststyle"] = 3
-vim.opt.guifont + "Cascadia Code PL:h12"
+vim.opt.guifont = vim.opt.guifont + "Cascadia Code PL:h12"
 
 vim.api.nvim_command("colorscheme nord")

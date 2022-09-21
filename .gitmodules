@@ -11,13 +11,13 @@
 	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people.git
 	ignore = untracked
 [submodule "pack/clojure/opt/conjure"]
-	path = pack/clojure/opt/conjure
+	path = pack/standard/opt/conjure
 	url = https://github.com/Olical/conjure.git
 [submodule "pack/standard/start/dart-vim-plugin"]
-	path = pack/standard/start/dart-vim-plugin
+	path = pack/standard/opt/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin.git
 [submodule "pack/julia/opt/julia-vim"]
-	path = pack/julia/opt/julia-vim
+	path = pack/standard/opt/julia-vim
 	url = https://github.com/JuliaEditorSupport/julia-vim.git
 [submodule "./pack/standard/opt/coc.nvim"]
 	branch = release
