@@ -13,10 +13,6 @@
 [submodule "pack/clojure/opt/conjure"]
 	path = pack/clojure/opt/conjure
 	url = https://github.com/Olical/conjure.git
-[submodule "pack/standard/opt/coc.nvim"]
-	path = pack/standard/opt/coc.nvim
-	url = https://github.com/neoclide/coc.nvim.git
-	branch = release
 [submodule "pack/standard/start/dart-vim-plugin"]
 	path = pack/standard/start/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin.git
