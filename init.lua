@@ -15,3 +15,5 @@ vim.g["netrw_liststyle"] = 3
 vim.opt.guifont = vim.opt.guifont + "Cascadia Code PL:h12"
 
 vim.api.nvim_command("colorscheme nord")
+
+vim.filetype.add({extension = {odin = 'odin'}})
