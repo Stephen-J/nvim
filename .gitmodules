@@ -1,5 +1,5 @@
 [submodule "pack/colors/opt/nord-vim"]
-	path = pack/colors/opt/nord-vim
+	path = pack/standard/start/nord-vim
 	url = https://github.com/arcticicestudio/nord-vim.git
 	ignore = untracked
 [submodule "pack/standard/start/vim-sexp"]
