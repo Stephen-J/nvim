@@ -1,9 +1,7 @@
 local opt = vim.opt
-local command = vim.api.nvim_command
 
-
-command("syntax on")
-command("filetype plugin indent on")
+vim.cmd("syntax on")
+vim.cmd("filetype plugin indent on")
 
 
 
@@ -26,10 +24,15 @@ local fonts = {
   "Agave Nerd Font Mono:h13"}
 opt.guifont = fonts[3]
 
-command("colorscheme nord")
+vim.cmd("colorscheme nord")
 
 vim.filetype.add({extension = {odin = 'odin'}})
 
 vim.keymap.set("t","<Esc>","<C-\\><C-n>")
 
 require('lualine').setup()
+require('workspaces').setup({
+  hooks = {open = function(name,path)
+                    vim.cmd('source Session.vim')
+                  end}
+})

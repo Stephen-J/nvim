@@ -27,3 +27,6 @@
 [submodule "pack/standard/start/lualine"]
 	path = pack/standard/start/lualine
 	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "pack/standard/start/workspaces.nvim"]
+	path = pack/standard/start/workspaces.nvim
+	url = https://github.com/natecraddock/workspaces.nvim.git
