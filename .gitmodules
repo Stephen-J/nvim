@@ -24,3 +24,6 @@
 [submodule "pack/standard/start/nvim-treesitter"]
 	path = pack/standard/start/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "pack/standard/start/lualine"]
+	path = pack/standard/start/lualine
+	url = https://github.com/nvim-lualine/lualine.nvim.git
