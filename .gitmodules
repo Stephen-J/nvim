@@ -30,3 +30,6 @@
 [submodule "pack/standard/start/workspaces.nvim"]
 	path = pack/standard/start/workspaces.nvim
 	url = https://github.com/natecraddock/workspaces.nvim.git
+[submodule "pack/standard/start/nvim-lspconfig"]
+	path = pack/standard/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
