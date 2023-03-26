@@ -13,7 +13,11 @@ vim.keymap.set("t","<Esc>","<C-\\><C-n>")
 
 
 
-vim.filetype.add({extension = {odin = 'odin'}})
+vim.filetype.add({
+  extension = {
+    odin = 'odin',
+    vert = 'glsl',
+    frag = 'glsl',}})
 
 local opt = vim.opt
 opt.number = true
@@ -35,7 +39,10 @@ opt.guifont = fonts[3]
 require('lualine').setup()
 require('workspaces').setup({
   hooks = {open = function(name,path)
-                    vim.cmd('source Session.vim')
+                    local projectFile = vim.fs.find("project.lua",{limit = 1})
+                    if projectFile[1] then
+                      vim.cmd.luafile(projectFile[1])
+                    end
                   end}
 })
 
