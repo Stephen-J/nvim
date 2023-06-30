@@ -1,11 +1,15 @@
 local fonts = {
   "Cascadia Code PL:h12",
   "Hack Nerd Font Mono:h12",
-  "Agave Nerd Font Mono:h13"}
+  "Agave Nerd Font Mono:h13",}
 
 vim.cmd("colorscheme nord")
 vim.cmd("syntax on")
 vim.cmd("filetype plugin indent on")
+vim.cmd("set shell=powershell")
+vim.cmd("set shellcmdflag=-command")
+vim.cmd("set shellquote=\"")
+vim.cmd("set shellxquote= ")
 
 
 
@@ -17,7 +21,11 @@ vim.filetype.add({
   extension = {
     odin = 'odin',
     vert = 'glsl',
-    frag = 'glsl',}})
+    frag = 'glsl',
+    cljd = 'clojure',
+    cljc = 'clojure',
+    cljs = 'clojure',
+    clj = 'clojure'}})
 
 local opt = vim.opt
 opt.number = true
@@ -31,7 +39,7 @@ opt.softtabstop = 2
 opt.termguicolors = true
 opt.background = "dark"
 vim.g["netrw_liststyle"] = 3
-opt.guifont = fonts[3]
+opt.guifont = fonts[1]
 
 
 
