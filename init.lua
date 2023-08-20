@@ -1,7 +1,12 @@
 local fonts = {
-  "Cascadia Code PL:h12",
+  "Cascadia Code:h12",
   "Hack Nerd Font Mono:h12",
   "Agave Nerd Font Mono:h13",}
+
+if vim.g.neovide == true then
+  vim.o.guifont="Cascadia Code:h12"
+end
+
 
 vim.cmd("colorscheme nord")
 vim.cmd("syntax on")
