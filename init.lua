@@ -4,7 +4,7 @@ local fonts = {
   "Agave Nerd Font Mono:h13",}
 
 if vim.g.neovide == true then
-  vim.o.guifont="Cascadia Code:h12"
+  vim.o.guifont="CaskaydiaCove Nerd Front Mono:h11"
 end
 
 
@@ -49,7 +49,9 @@ opt.guifont = fonts[1]
 
 
 
-require('lualine').setup()
+require('lualine').setup {
+  options = {section_separators = {left = '',right = ''}}
+}
 require('workspaces').setup({
   hooks = {open = function(name,path)
                     local projectFile = vim.fs.find("project.lua",{limit = 1})
