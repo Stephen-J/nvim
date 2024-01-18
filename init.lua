@@ -4,7 +4,9 @@ local fonts = {
   "Agave Nerd Font Mono:h13",}
 
 if vim.g.neovide == true then
-  vim.o.guifont="CaskaydiaCove Nerd Front Mono:h11"
+  vim.o.guifont="CaskaydiaCove Nerd Font Mono:h12"
+else
+  vim.o.guifont=fonts[1]
 end
 
 
@@ -30,7 +32,8 @@ vim.filetype.add({
     cljd = 'clojure',
     cljc = 'clojure',
     cljs = 'clojure',
-    clj = 'clojure'}})
+    clj = 'clojure',
+    wgsl = 'wgsl'}})
 
 local opt = vim.opt
 opt.number = true
@@ -44,7 +47,6 @@ opt.softtabstop = 2
 opt.termguicolors = true
 opt.background = "dark"
 vim.g["netrw_liststyle"] = 3
-opt.guifont = fonts[1]
 
 
 
