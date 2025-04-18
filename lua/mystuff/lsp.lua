@@ -7,6 +7,7 @@ function module.setup ()
   lspconfig.clojure_lsp.setup{}
   lspconfig.dartls.setup{}
   lspconfig.ols.setup{}
+  lspconfig.gopls.setup{}
   lspconfig.elixirls.setup{
     cmd = {'elixirls'}
   }

@@ -6,7 +6,7 @@ require('mystuff.theme').set()
 require('mystuff.keymaps').set()
 require('mystuff.gui').setup()
 require('mystuff.options').set()
-require('mystuff.shell').use_powershell()
+--require('mystuff.shell').use_powershell()
 require('mystuff.lsp').setup()
 
 require('workspaces').setup({
